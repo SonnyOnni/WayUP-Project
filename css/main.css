@@ -116,6 +116,7 @@ p {
     text-decoration: none;
     color: black;
     transition: all 0.5s ease;
+    cursor: pointer;
 }
 
 .btn:hover {
@@ -190,7 +191,7 @@ input {
     border: 1px #bbbbbb solid;
 }
 
-.dream {
+.dream-btn {
     display: block;
     margin-left: auto;
     margin-right: auto;
@@ -202,9 +203,10 @@ input {
     width: 342px;
     height: 56px;
     transition: all 0.5s ease;
+    cursor: pointer;
 }
 
-.dream:hover {
+.dream-btn:hover {
     background-color: #d8761d;
     color: white;    
 }
