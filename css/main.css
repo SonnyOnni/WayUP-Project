@@ -1,0 +1,224 @@
+@font-face {
+    font-family: 'Montserrat';
+    src: local('Montserrat Black'), local('Montserrat-Black'),
+        url('../fonts/Montserrat-Black.woff2') format('woff2'),
+        url('//fonts/Montserrat-Black.woff') format('woff');
+    font-weight: 900;
+    font-style: normal;
+    font-display: swap;
+}
+
+@font-face {
+    font-family: 'Open Sans';
+    src: local('Open Sans Regular'), local('OpenSans-Regular'),
+        url('../fonts/OpenSans-Regular.woff2') format('woff2'),
+        url('../fonts/OpenSans-Regular.woff') format('woff');
+    font-weight: normal;
+    font-style: normal;
+    font-display: swap;
+}
+
+@font-face {
+    font-family: 'Ubuntu';
+    src: local('Ubuntu Regular'), local('Ubuntu-Regular'),
+        url('../fonts/Ubuntu-Regular.woff2') format('woff2'),
+        url('../fonts/Ubuntu-Regular.woff') format('woff');
+    font-weight: normal;
+    font-style: normal;
+    font-display: swap;
+}
+
+@font-face {
+    font-family: 'Ubuntu';
+    src: local('Ubuntu Bold'), local('Ubuntu-Bold'),
+        url('../fonts/Ubuntu-Bold.woff2') format('woff2'),
+        url('../fonts/Ubuntu-Bold.woff') format('woff');
+    font-weight: bold;
+    font-style: normal;
+    font-display: swap;
+}
+
+* {
+    box-sizing: border-box;
+}
+
+h1, h2, h3, h4, h5, h6 {
+    margin: 0;
+    font-family: 'Ubuntu', sans-serif;
+}
+
+body {
+    font-family: 'Ubuntu', sans-serif;
+    margin: 0;
+    padding: 0;
+}
+
+p {
+    line-height: 1.6em;
+}
+
+.container {
+    width: 1170px;
+    margin: 0 auto;
+}
+
+.header {
+    background: rgba(77,190,254,1);
+    background: -moz-linear-gradient(-45deg, rgba(77,190,254,1) 0%, rgba(55,143,217,1) 100%);
+    background: -webkit-gradient(left top, right bottom, color-stop(0%, rgba(77,190,254,1)), color-stop(100%, rgba(55,143,217,1)));
+    background: -webkit-linear-gradient(-45deg, rgba(77,190,254,1) 0%, rgba(55,143,217,1) 100%);
+    background: -o-linear-gradient(-45deg, rgba(77,190,254,1) 0%, rgba(55,143,217,1) 100%);
+    background: -ms-linear-gradient(-45deg, rgba(77,190,254,1) 0%, rgba(55,143,217,1) 100%);
+    background: linear-gradient(135deg, rgba(77,190,254,1) 0%, rgba(55,143,217,1) 100%);
+    filter: progid:DXImageTransform.Microsoft.gradient( startColorstr='#4dbefe', endColorstr='#378fd9', GradientType=1 );
+    padding-top: 60px;
+    padding-bottom: 60px;
+    color: white;
+}
+
+.wrapper {
+    display: flex;
+    justify-content: space-between;
+}
+
+.offer {
+    margin-top: 140px;
+}
+
+.title {
+    width: 600px;
+}
+
+.main-title {
+    font-size: 37px;
+}
+
+.title span {
+    font-size: 59px;
+}
+
+.intro {
+    font-family: 'Open Sans', sans-serif;
+    font-size: 16px;
+    margin-bottom: 35px;
+    margin-top: 30px;
+    width: 400px;
+}
+
+.btn {
+    font-family: 'Montserrat', sans-serif;
+    font-size: 15px;
+    background-color: #ffd429;
+    width: 220px;
+    padding: 20px 0;
+    display: block;
+    text-align: center;
+    text-decoration: none;
+    color: black;
+    transition: all 0.5s ease;
+}
+
+.btn:hover {
+    background-color: #d8761d;
+    color: white;
+}
+
+.main-picture {
+    margin-top: 5px;
+}
+
+
+.future {
+    padding-top: 107px;
+    padding-bottom: 100px;
+}
+
+.title-next {
+    font-size: 30px;
+    text-align: center;
+}
+
+.benefits {
+    display: flex;
+    justify-content: space-between;
+    margin-top: 70px;
+}
+
+.benefit {
+    width: 300px;
+}
+
+.clock {
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+    margin-bottom: 30px;
+}
+
+.benefit-title {
+    font-size: 19px;
+    font-weight: bold;
+    text-align: center;
+    margin-bottom: 20px;
+}
+
+.benefit-text {
+    font-size: 15px;
+    text-align: center;
+}
+
+.order-form {
+    background-color: #ecf3f8;
+    padding-top: 90px;
+    padding-bottom: 100px;
+}
+
+.personal-form {
+    margin-top: 63px;
+}
+
+input {
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+    width: 342px;
+    height: 47px;
+    padding-left: 25px;
+    margin-bottom: 16px;
+    font-family: 'Ubuntu', sans-serif;
+    font-size: 15px;
+    border: 1px #bbbbbb solid;
+}
+
+.dream {
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+    font-family: 'Montserrat', sans-serif;
+    font-size: 15px;
+    background-color: #ffd429;
+    color: black;  
+    border: none; 
+    width: 342px;
+    height: 56px;
+    transition: all 0.5s ease;
+}
+
+.dream:hover {
+    background-color: #d8761d;
+    color: white;    
+}
+
+.footer {
+    background-color: #164d7a;
+}
+
+.rights {
+    font-family: 'Open Sans', sans-serif;
+    font-size: 14px;
+    color: white;
+    text-align: center;
+    padding-top: 60px;
+    padding-bottom: 60px;
+    margin: 0;
+}
